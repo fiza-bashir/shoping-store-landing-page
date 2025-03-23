@@ -1,0 +1,70 @@
+.rounded-pill{
+    margin-top: 0.1rem;
+    
+}
+.fa-cart-shopping{
+    margin-top: 0.3rem;
+}
+
+/* its use for the cards wishtlist to fvrts  */
+.img-action-btns {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    .card-img-top {
+
+    }
+    .wishlist-add-cart-btn {
+        position: absolute;
+        left: 1rem;
+        top: 1.5rem;
+        right: 1rem;
+        bottom: 1.5rem;
+        transform: translate(300%, 0);
+        transition: all 0.3s ease-in-out;
+        
+    }
+    &:hover {
+        .wishlist-add-cart-btn {
+            transform: translate(0%, 0);
+        }
+    }
+}
+
+/* section Adidas Men Running Sneakers start img shadow start*/
+/* .shoe-shadow {
+    box-shadow: 20px 10px; 
+    border-radius: 10px;
+} */
+
+/* latest news start  */
+/* .card-partner{
+    position: relative;
+
+    .logo-partner{
+        position: absolute;
+        width: 4.5rem;
+        left: 0;
+        margin: auto 0;
+        top: 0;
+        bottom: 0;
+    }
+    .card-content{
+        padding-left: 5rem;
+    }
+} */
+
+/* footer section start  */
+.footer{
+    background-color: #BCDDFE;
+
+
+    .bg-warning {
+        margin-left: 3rem;
+      }
+      
+      .bg-danger {
+        margin-left: 0.5rem;
+      }
+      
+}
